@@ -1,0 +1,24 @@
+{
+  "originHash" : "accc03ac12a27ecf5bf5b7af803e0d1f4c9a9f056b8e41f91d10cfe148d0b248",
+  "pins" : [
+    {
+      "identity" : "dicyaninarkitsession",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hunterh37/DicyaninARKitSession",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c8fa5c886cfe46768138f877224e17ef62835995"
+      }
+    },
+    {
+      "identity" : "dicyaninthumbcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hunterh37/DicyaninThumbController",
+      "state" : {
+        "branch" : "master",
+        "revision" : "24d94e392febbd8a690acfe564440a33b805c08f"
+      }
+    }
+  ],
+  "version" : 3
+}
