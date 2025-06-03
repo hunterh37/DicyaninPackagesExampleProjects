@@ -7,7 +7,7 @@
 
 import SwiftUI
 import RealityKit
-import DicyaninMultiDeviceMP
+import DicyaninMultiPeer
 import os.log
 
 struct MobileContentView: View {

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DicyaninMultiDeviceMP
+import DicyaninMultiPeer
 
 @main
 struct iPhone_DicyaninPlayground005App: App {

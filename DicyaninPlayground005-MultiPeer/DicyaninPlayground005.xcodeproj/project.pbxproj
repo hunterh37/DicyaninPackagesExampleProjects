@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8150EA302DE9F9D8007FA42B /* DicyaninMultiDeviceMP in Frameworks */ = {isa = PBXBuildFile; productRef = 81A3BB582DE9EFD000B8588C /* DicyaninMultiDeviceMP */; };
-		81A3BB592DE9EFD000B8588C /* DicyaninMultiDeviceMP in Frameworks */ = {isa = PBXBuildFile; productRef = 81A3BB582DE9EFD000B8588C /* DicyaninMultiDeviceMP */; };
+		81C804C42DEF8A3300635E1B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 81A3BB3E2DE9E87300B8588C /* RealityKitContent */; };
+		81C804E32DEF9F6400635E1B /* DicyaninMultiPeer in Frameworks */ = {isa = PBXBuildFile; productRef = 81C804E22DEF9F6400635E1B /* DicyaninMultiPeer */; };
+		81C804E62DEF9F7000635E1B /* DicyaninMultiPeer in Frameworks */ = {isa = PBXBuildFile; productRef = 81C804E52DEF9F7000635E1B /* DicyaninMultiPeer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8150EA302DE9F9D8007FA42B /* DicyaninMultiDeviceMP in Frameworks */,
+				81C804E62DEF9F7000635E1B /* DicyaninMultiPeer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A3BB592DE9EFD000B8588C /* DicyaninMultiDeviceMP in Frameworks */,
+				81C804C42DEF8A3300635E1B /* RealityKitContent in Frameworks */,
+				81C804E32DEF9F6400635E1B /* DicyaninMultiPeer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,7 @@
 				81A3BB3B2DE9E87300B8588C /* DicyaninPlayground005 */,
 				81A3BB3C2DE9E87300B8588C /* Packages */,
 				8150EA252DE9F967007FA42B /* iPhone-DicyaninPlayground005 */,
+				81C804E42DEF9F7000635E1B /* Frameworks */,
 				81A3BB3A2DE9E87300B8588C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +107,13 @@
 			children = (
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		81C804E42DEF9F7000635E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +137,7 @@
 			name = "iPhone-DicyaninPlayground005";
 			packageProductDependencies = (
 				81A3BB582DE9EFD000B8588C /* DicyaninMultiDeviceMP */,
+				81C804E52DEF9F7000635E1B /* DicyaninMultiPeer */,
 			);
 			productName = "iPhone-DicyaninPlayground005";
 			productReference = 8150EA242DE9F967007FA42B /* iPhone-DicyaninPlayground005.app */;
@@ -151,6 +162,7 @@
 			packageProductDependencies = (
 				81A3BB3E2DE9E87300B8588C /* RealityKitContent */,
 				81A3BB582DE9EFD000B8588C /* DicyaninMultiDeviceMP */,
+				81C804E22DEF9F6400635E1B /* DicyaninMultiPeer */,
 			);
 			productName = DicyaninPlayground005;
 			productReference = 81A3BB392DE9E87300B8588C /* DicyaninPlayground005.app */;
@@ -184,7 +196,7 @@
 			mainGroup = 81A3BB302DE9E87300B8588C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				81A3BB572DE9EFD000B8588C /* XCLocalSwiftPackageReference "Packages/DicyaninMultiDeviceMP" */,
+				81C804E12DEF9F6400635E1B /* XCLocalSwiftPackageReference "Packages/DicyaninMultiPeer" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 81A3BB3A2DE9E87300B8588C /* Products */;
@@ -502,9 +514,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		81A3BB572DE9EFD000B8588C /* XCLocalSwiftPackageReference "Packages/DicyaninMultiDeviceMP" */ = {
+		81C804E12DEF9F6400635E1B /* XCLocalSwiftPackageReference "Packages/DicyaninMultiPeer" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = Packages/DicyaninMultiDeviceMP;
+			relativePath = Packages/DicyaninMultiPeer;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -516,6 +528,15 @@
 		81A3BB582DE9EFD000B8588C /* DicyaninMultiDeviceMP */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DicyaninMultiDeviceMP;
+		};
+		81C804E22DEF9F6400635E1B /* DicyaninMultiPeer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DicyaninMultiPeer;
+		};
+		81C804E52DEF9F7000635E1B /* DicyaninMultiPeer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81C804E12DEF9F6400635E1B /* XCLocalSwiftPackageReference "Packages/DicyaninMultiPeer" */;
+			productName = DicyaninMultiPeer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
