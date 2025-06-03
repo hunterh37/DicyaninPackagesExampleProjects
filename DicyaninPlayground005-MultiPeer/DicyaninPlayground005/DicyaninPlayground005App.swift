@@ -14,8 +14,7 @@ struct DicyaninPlayground005App: App {
     @State private var appModel = AppModel()
     
     init() {
-        SyncComponent.registerComponent()
-        SyncModelComponent.registerComponent()
+        MultiDeviceManager.registerComponents()
     }
     
     var body: some Scene {

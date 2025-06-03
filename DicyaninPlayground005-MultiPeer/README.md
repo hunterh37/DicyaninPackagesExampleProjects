@@ -1,4 +1,6 @@
-# DicyaninPlayground005
+# DicyaninPlayground005 🎮 🌐 🎯
+
+> Transform your AR/VR experiences with seamless multi-device synchronization! This powerful framework enables real-time 3D content sharing between visionOS and iOS devices, perfect for collaborative AR experiences, interactive presentations, and immersive multi-user applications. 🚀
 
 A multi-device AR/VR experience that demonstrates synchronized 3D content across visionOS and iOS devices.
 

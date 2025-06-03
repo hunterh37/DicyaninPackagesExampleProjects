@@ -12,8 +12,7 @@ import DicyaninMultiDeviceMP
 struct iPhone_DicyaninPlayground005App: App {
     
     init() {
-        SyncComponent.registerComponent()
-        SyncModelComponent.registerComponent()
+        MultiDeviceManager.registerComponents()
     }
     
     var body: some Scene {
