@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81C804C42DEF8A3300635E1B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 81A3BB3E2DE9E87300B8588C /* RealityKitContent */; };
 		81C804E32DEF9F6400635E1B /* DicyaninMultiPeer in Frameworks */ = {isa = PBXBuildFile; productRef = 81C804E22DEF9F6400635E1B /* DicyaninMultiPeer */; };
 		81C804E62DEF9F7000635E1B /* DicyaninMultiPeer in Frameworks */ = {isa = PBXBuildFile; productRef = 81C804E52DEF9F7000635E1B /* DicyaninMultiPeer */; };
 /* End PBXBuildFile section */
@@ -74,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C804C42DEF8A3300635E1B /* RealityKitContent in Frameworks */,
 				81C804E32DEF9F6400635E1B /* DicyaninMultiPeer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

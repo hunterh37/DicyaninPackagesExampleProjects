@@ -7,7 +7,7 @@
 
 import SwiftUI
 import RealityKit
-import DicyaninMultiDeviceMP
+import DicyaninMultiPeer
 
 // Create your root entity
 let rootEntity = Entity()

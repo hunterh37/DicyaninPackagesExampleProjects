@@ -7,7 +7,7 @@
 
 import SwiftUI
 import RealityKit
-import DicyaninMultiDeviceMP
+import DicyaninMultiPeer
 
 struct VisionContentView: View {
     @Environment(AppModel.self) private var appModel

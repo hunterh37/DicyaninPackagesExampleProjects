@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DicyaninMultiDeviceMP
+import DicyaninMultiPeer
 
 /// Maintains app-wide state
 @MainActor
